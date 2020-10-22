@@ -21,7 +21,6 @@ function currentLine(line) {
   }
   for(let i = 1; i < line.length; i++) {
     currently += `, ${i+1}. ${line[i]}`
-    console.log(i)
   }
   return currently
 }
