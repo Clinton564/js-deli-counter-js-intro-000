@@ -9,4 +9,7 @@ function nowServing(line) {
     line.unshift()
     return `Currently serving ${name}.`
   }
+  else {
+    return "There is nobody waiting to be served!"
+  }
 }
