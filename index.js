@@ -13,3 +13,11 @@ function nowServing(line) {
     return "There is nobody waiting to be served!"
   }
 }
+
+function currentLine(line) {
+  var currently = "The line is currently: "
+  for(let i = 0; i < line.length; line++) {
+    currently += `${i}. ${line[i]}, `
+  }
+  return currently
+}
