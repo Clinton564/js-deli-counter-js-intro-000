@@ -7,6 +7,6 @@ function nowServing(line) {
   if(line.length > 0) {
     name=line[0]
     line.splice(1)
-    return `Now serving ${name}.`
+    return `Currently serving ${name}.`
   }
 }
